@@ -9,13 +9,20 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
+  const callLinks = [
+    {
+      name: 'Serena Prentiss',
+      role: 'Spa Therapist',
+      image: 'head-img.jpeg'
+    }
+  ]
   return (
     <div className="App">
       <Header />
       <Masthead />
       <About />
       <Services />
-      <CallAction />
+      <CallAction callLinks={callLinks}/>
       <Contact />
       <Footer />
     </div>

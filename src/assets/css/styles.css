@@ -68,11 +68,26 @@ body {
   text-align: left;
   background-color: #f4d4e9;
 }
-
+.section-heading {
+  color: #ca2c91;
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(212, 86, 167, 0.9);
+}
+.team-member h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #fff;
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -10039,7 +10054,12 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+.head-img {
+  border: 3px solid #ca2c91;
+  width: 150px;
+  height: 150px;
 
+}
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #ca2c91;
