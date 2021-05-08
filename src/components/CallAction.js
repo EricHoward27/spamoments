@@ -23,7 +23,7 @@ const CallAction = ({ callLinks }) => {
               )}
             </div>
             <div className="row">
-                <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Meet our amazing ECS Team who all have a part in this amazing journey.</p></div>
+                <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Say hello to  our Spa Moments By Serena team!</p></div>
             </div>
         </div>
     </section>

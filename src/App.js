@@ -7,6 +7,7 @@ import Services from './components/Services'
 import CallAction from './components/CallAction'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Info from './components/Info'
 
 function App() {
   const callLinks = [
@@ -22,6 +23,7 @@ function App() {
       <Masthead />
       <About />
       <Services />
+      <Info />
       <CallAction callLinks={callLinks}/>
       <Contact />
       <Footer />
