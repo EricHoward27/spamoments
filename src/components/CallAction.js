@@ -10,7 +10,7 @@ const CallAction = ({ callLinks }) => {
             </div>
             <div className="row">
               { callLinks && callLinks.map(({ name, role, image}, index) =>
-                <div className="col-lg-4">
+                <div className="col-lg-4" key={name}>
                     <div className="team-member">
                         <img className="mx-auto rounded-circle" src={ image } alt="..." />
                         <h4>{ name }</h4>
