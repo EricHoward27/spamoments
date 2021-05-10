@@ -11,7 +11,7 @@ const Services = () => {
                     <div className="mt-5">
                         <i className="fas fa-4x fa-spa text-primary mb-4"></i>
                         <h3 className="h4 mb-2">Make-Up Services</h3>
-                        <p className="text-muted mb-0">Serena offer make-up services, her expertise as an make up artist brings our your best feature for any occasion!</p>
+                        <p className="text-muted mb-0">Serena offers make-up services, and her expertise as a make up artist brings out your best feature for any occasion!</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 text-center">

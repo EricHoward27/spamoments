@@ -15,9 +15,9 @@ const CallAction = ({ callLinks }) => {
                         <img className="mx-auto rounded-circle" src={ image } alt="..." />
                         <h4>{ name }</h4>
                         <p className="text-muted">{ role }</p>
-                        <a className="btn btn-light btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-light btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-light btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
+                        <a className="btn btn-light btn-social mx-2" href="https://www.twitter.com/smprentiss" target="_blank"><i className="fab fa-twitter"></i></a>
+                        <a className="btn btn-light btn-social mx-2" href="https://www.facebook.com/serena.prentiss" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                        <a className="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/serena-prentiss-85101a36" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
               )}
